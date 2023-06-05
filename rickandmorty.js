@@ -11,10 +11,13 @@ data.results.forEach(function(character){
     container.innerHTML= `
     <div class="image"><img src="${character.image}"/></div>
     <div class="details">
-        <h2>${character.name}</h2>
-        <h3>${character.gender}</h3>
-        <p>${character.status}</p>
-        <p>${character.type}</p>
+        <h2>Name: ${character.name}</h2>
+        <h3>Character: ${character.gender}</h3>
+        <p>Status: ${character.status}</p>
+        <p>Type: ${character.type}</p>
+        <p>Location: ${character.location.name}</p>
+        
+
         
     </div>
         
